@@ -1,5 +1,5 @@
 const fs = require("fs");
-let movieList;
+let movieList = [];
 
 try {
     let tempJson = fs.readFileSync("./netflix.json");
